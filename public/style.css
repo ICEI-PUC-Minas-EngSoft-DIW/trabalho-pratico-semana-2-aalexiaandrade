@@ -1,0 +1,79 @@
+html {
+    width: 1000px;      /* largura da tela */
+    height: 20%;     /* altura da tela */
+    margin: 80px;        /* remove margens padrão do navegador */
+    padding: 0;       /* remove padding padrão */
+}
+
+body {
+    font-family: 'Segoe UI';
+    color:  #383838;
+    
+}
+
+header {
+    background: #f0f0f0;
+    display: flex;              /* coloca itens lado a lado */
+    align-items: center;        /* centraliza verticalmente */
+    gap: 20px;                  /* espaço entre imagem e texto */
+}
+
+.foto {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;               /* tamanho da foto */
+    height: auto;
+    border-radius: 10px;        /* deixa cantos arredondados */
+}
+
+.informacoes {
+    margin-left: 100px;
+    line-height: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;     /* força h1 e p ficarem um embaixo do outro */
+}
+
+.curriculo {
+    display: flex;          /* coloca aside e article lado a lado */
+    margin: 0;
+    line-height: 1;
+}
+
+/* Barra lateral */
+aside {
+    width: 400px;          /* largura fixa */
+    background: #f0f0f0;    /* fundo clarinho */
+    padding: 20px;
+    box-sizing: border-box; /* garante que padding não aumente a largura */
+    border-right: 2px solid #ccc;
+    padding: 10px;
+}
+
+/* Conteúdo */
+article {
+    flex: 1;                /* ocupa o espaço restante */
+    padding: 20px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+
+}
+
+h3 {
+    text-align: center;
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 5px;
+}
+.endereço {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contato {
+    text-align: center;
+    line-height: 0.2;
+    margin-bottom: 30px;
+}
+#educação {
+    margin-top: 50px;
+}
+
